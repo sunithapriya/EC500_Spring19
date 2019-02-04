@@ -10,9 +10,9 @@ This function reads JSON data and will check for the threshold value.
 
 Input: JSON (patient information)
 
-Output: list (Alert message,patientid)
+Output: json (Alert message,patientid)
 
-2.     saveAlertData(list):
+2.     saveAlertData(json):
 
 Input: This function will take alertCheck method’s output as input i.e list.
 
