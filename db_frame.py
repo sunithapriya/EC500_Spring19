@@ -20,7 +20,7 @@ class storage:
 		self.client = pymongo.MongoClient()
 		pass
 
-	def create(self, data):
+	def add(self, data):
 		'''
 			add data to the mongodb
 		'''
@@ -43,6 +43,3 @@ class storage:
 			read data of patient
 		'''
 		pass
-
-
-
